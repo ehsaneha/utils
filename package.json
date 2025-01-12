@@ -1,0 +1,32 @@
+{
+  "name": "@ehsaneha/utils",
+  "version": "1.0.0",
+  "description": "Utility functions and types",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehsaneha/utils.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "utility",
+    "makeId",
+    "Nullable",
+    "Dict",
+    "Override"
+  ],
+  "author": "ehsaneha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ehsaneha/utils/issues"
+  },
+  "homepage": "https://github.com/ehsaneha/utils#readme"
+}
